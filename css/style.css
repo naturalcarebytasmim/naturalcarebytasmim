@@ -132,6 +132,7 @@ body {
   font-family: myfont1, sans-serif;
   width: 60%;
   margin: auto;
+  margin-bottom: 3rem;
 }
 .review h1 {
   font-size: 20px;
@@ -179,6 +180,126 @@ body {
   padding-top: 5px;
   padding-bottom: 2px;
 }
+.purchase {
+  margin-bottom: 3rem;
+  background-color: #ffffff;
+  font-family: myfont1, sans-serif;
+  padding: 15px 0px;
+}
+.purchase-box {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #8f00ff;
+  border-radius: 10px;
+}
+.dada {
+  display: flex;
+}
+.duitar-bap {
+}
+.purchase-box h1 {
+  font-size: 20px;
+  color: #000000;
+  margin: 0 0 3rem 0;
+}
+.biling-details {
+  margin-bottom: 3rem;
+}
+.biling-details h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #8f00ff;
+  margin: 0 0 1rem 0;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.ektar-bap {
+}
+.your-order h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #8f00ff;
+  margin: 0 0 1rem 0;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+input[type="text"]:focus,
+input[type="tel"]:focus {
+  border-color: #6200ea;
+}
+input[type="text"]::placeholder {
+  font-size: 0.9rem;
+  color: #999;
+  font-family: myfont1, sans-serif;
+}
+.pricing-options {
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.pricing-options h1 {
+  font-weight: 600;
+  color: #8f00ff;
+  margin: 0 0 1rem 0;
+}
+.pricing-option {
+  border: 2px solid #8f00ff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.pricing-option input {
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  transform: scale(1.5);
+}
+.pricing-option label {
+  display: block;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #333;
+}
+.pricing-option .old-price {
+  text-decoration: line-through;
+  color: #888;
+}
+.pricing-option .new-price {
+  font-weight: bold;
+  color: #333;
+}
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #ff5722;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+.badge.popular {
+  background-color: #2196f3;
+}
+
 footer {
   font-family: "Poppins", sans-serif;
   background-color: #2a8037;
