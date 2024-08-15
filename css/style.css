@@ -1,0 +1,197 @@
+@font-face {
+  font-family: myfont1;
+  src: url(../fonts/KohinoorBangla-Regular.woff2);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2a8037;
+}
+.firstblock {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.logo-and-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-right: 10px;
+  width: 34px;
+  height: 34px;
+}
+.logo-and-name h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.firstblock h3 {
+  margin: 0;
+  color: white;
+  font-family: myfont1, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.cover-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.cover-photo img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.cover-photo h3 {
+  color: white;
+  font-size: 20px;
+  font-family: myfont1, sans-serif;
+}
+.cover-photo button {
+  background-color: #ffffff;
+  color: #8f00ff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  font-family: myfont1, sans-serif;
+  font-weight: bold;
+  width: 50%;
+  border: 2px solid #ffffff;
+  padding: 7px 0px;
+  border-radius: 10px;
+  font-size: 19px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.cover-photo button:hover {
+  background-color: #2a8037;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.cover-photo button:active {
+  background-color: #8f00ff;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.faq-section {
+  background-color: white;
+  font-family: myfont1, sans-serif;
+  margin-bottom: 3rem;
+}
+.faq-sub-section {
+  width: 60%;
+  margin: auto;
+  padding: 20px 0px;
+}
+.faq-sub-section h1 {
+  text-align: center;
+  color: #2a8037;
+  font-size: 20px;
+  text-align: left;
+}
+.faq {
+  margin-bottom: 7px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.faq-question {
+  padding: 0 12px;
+  background-color: #8f00ff;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-question h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 100;
+}
+.faq-toggle {
+  font-size: 18px;
+}
+.faq-answer {
+  display: none;
+  background-color: #ffffff;
+  color: #8f00ff;
+  padding: 0 12px;
+  font-size: 13px;
+  border-top: 1px solid #000000;
+}
+.review {
+  font-family: myfont1, sans-serif;
+  width: 60%;
+  margin: auto;
+}
+.review h1 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.review-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.review-item {
+  font-family: "Poppins", sans-serif;
+  margin: 20px auto;
+  padding: 9px;
+  width: 190px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  flex-direction: column;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile-picture {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+.user-name {
+  font-size: 13px;
+  color: #8f00ff;
+  font-weight: bold;
+  margin: 0 5px;
+}
+.user-review p {
+  text-align: left;
+  font-size: 10px;
+  color: #000000;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+footer {
+  font-family: "Poppins", sans-serif;
+  background-color: #2a8037;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+}
+@media (max-width: 400px) {
+}
