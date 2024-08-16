@@ -65,9 +65,8 @@ body {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
   font-family: myfont1, sans-serif;
   font-weight: bold;
-  width: 50%;
   border: 2px solid #ffffff;
-  padding: 7px 0px;
+  padding: 7px 9px;
   border-radius: 10px;
   font-size: 19px;
   cursor: pointer;
@@ -419,6 +418,6 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
+}
 @media (max-width: 400px) {
 }
